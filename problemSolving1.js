@@ -63,7 +63,7 @@ const dulicates = numbers.filter(function(value, index, array){
 
 console.log(`Duplicate numbers are =  ${dulicates}`)
 
-//কোন array  থেকে duplicate number কিভাবে বের করে আনতে পারি
+//কোন array  থেকে unique number কিভাবে বের করে আনতে পারি
 
 
 const uniques = numbers.filter(function(value, index, array){
