@@ -80,13 +80,94 @@ let age = "18";
 
 //  // statement 2 = also optinal ... If you omit statement 2, you must provide a break inside the loop
 
-let i = 1;
+// let i = 1;
 
-for (;;) {
-  if (i > 5) {
-    break;
-  } else {
-    console.log(i);
-  }
-  i++; //i-- //you can provide here
+// for (;;) {
+//   if (i > 5) {
+//     break;
+//   } else {
+//     console.log(i);
+//   }
+//   i++; //i-- //you can provide here
+// }
+
+//        //for in loop
+
+//for in loop  Used to loop in objects
+
+// let person = { fastname: "Mehedi ", lastname: "Hasan ", age: 22 };
+
+// for (let x in person) {
+//   console.log(x)
+//   console.log(x + " : " + person[x]);
+// }
+
+//for of loop  Used to loop in array, string etc
+
+// let numbers = [4, 5, 6, 7, 8, 9, 10];
+
+// for (const x of numbers) {
+//   // console.log(x);
+// }
+// // const cars = ["BMW", "Volvo", "Mini"];
+// // let string = 'Sakib Al Hasan'
+
+// for (const alp of cars) {
+//   console.log(alp)
+// }
+
+//          //while loop
+
+// let i = 0;
+// let text1 = "";
+// let text = "";
+
+// while (i < 10) {
+//   text1 += " The number is  " + i;
+//   i++;
+// }
+
+// console.log(text1);
+
+///       // do while loop
+
+// do {
+//   text += " The number is  " + i;
+//   i++;
+// } while (i < 10);
+
+// console.log(text);
+
+//        //break,      continue statement
+
+
+
+// for (let i = 0; i < 10; i++) {
+//   if (i === 3) {
+//     break;
+//   }
+//   console.log( " The number is " + i)
+// }
+
+
+// for (let i = 0; i < 10; i++) {
+//   if (i === 3) {
+//     continue;
+//   }
+//   console.log( " The number is " + i)
+// }
+
+
+const cars = ["BMW", "Volvo", "Saab", "Ford"];
+let text = ''
+
+list: {
+  text += cars[0];
+  text += cars[1];
+  break list;
+  text += cars[2];
+  text += cars[3];
 }
+console.log(text)
+
+
