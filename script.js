@@ -60,23 +60,25 @@ map.set("c", 3);
 
 // console.log(map.size);
 
-console.log(map.has('a'))
-console.log(map.get('Apple'))
+// console.log(map.has('a'))
+// console.log(map.get('Apple'))
 
-console.log(map.has(0))//return true
+// console.log(map.has(0))//return true
 
-map.delete(0)
-console.log(map.has(0))//return false 
-
-
+// map.delete(0)
+// console.log(map.has(0))//return false 
 
 
-let text = "";
-map.forEach(function (value, key) {
-  text += key + " = " + value + ', ';
-});
-// console.log(text)
 
-for (const x of map.entries()) {
-  // console.log(x);
-}
+
+// let text = "";
+// map.forEach(function (value, key) {
+//   text += key + " = " + value + ', ';
+// });
+// // console.log(text)
+
+// for (const x of map.entries()) {
+//   // console.log(x);
+// }
+
+
