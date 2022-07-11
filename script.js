@@ -66,10 +66,7 @@ map.set("c", 3);
 // console.log(map.has(0))//return true
 
 // map.delete(0)
-// console.log(map.has(0))//return false 
-
-
-
+// console.log(map.has(0))//return false
 
 // let text = "";
 // map.forEach(function (value, key) {
@@ -81,4 +78,41 @@ map.set("c", 3);
 //   // console.log(x);
 // }
 
+//      //arow function
 
+// let arrowFunction = () =>  "hello";
+// console.log(arrowFunction())
+
+// let test = n => 'hello'+ ' ' + n
+
+// console.log(test('Smith'))
+
+//                       //Javascript JSON
+
+let text =
+  '{ "employees" : [' +
+  '{ "firstName":"John" , "lastName":"Doe" },' +
+  '{ "firstName":"Anna" , "lastName":"Smith" },' +
+  '{ "firstName":"Peter" , "lastName":"Jones" } ]}';
+// console.log(text)
+
+let obj = JSON.parse(text);
+// console.log(obj)
+
+let person1 = obj.employees[0].firstName;
+// console.log(person1);
+
+// let person = {
+//   firstName: "Mehedi",
+//   lastName: "Hasan",
+// };
+
+// let conjson = JSON.stringify(person)
+// console.log(conjson)
+
+function practices(x=1, y=1){
+  console.log(x)
+  console.log(y)
+}
+
+practices(5)
