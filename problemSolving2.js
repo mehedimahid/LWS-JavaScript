@@ -107,14 +107,12 @@ const obj = {
   k: false,
 };
 
-
-const trueObj = function(obj){
-    for (const i in obj) {
-        if (!obj[i]) {
-            delete obj[i];
-            
-        }
+const trueObj = function (obj) {
+  for (const i in obj) {
+    if (!obj[i]) {
+      delete obj[i];
     }
-    return obj
-}
-console.log(trueObj(obj))
+  }
+  return obj;
+};
+console.log(trueObj(obj));
