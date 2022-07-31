@@ -209,18 +209,32 @@
 //          //bind()
 
 //
-const person = {
-  firstName: "John",
-  lastName: "Doe",
-  fullName: function () {
-    return this.firstName + " " + this.lastName;
-  },
-};
+// const person = {
+//   firstName: "John",
+//   lastName: "Doe",
+//   fullName: function () {
+//     return this.firstName + " " + this.lastName;
+//   },
+// };
 
-const member = {
-  firstName: "Hege",
-  lastName: "Nilsen",
-};
+// const member = {
+//   firstName: "Hege",
+//   lastName: "Nilsen",
+// };
 
-let fullName = person.fullName.bind(member); //return Hege Nilsen
-console.log(fullName());
+// let fullName = person.fullName.bind(member); //return Hege Nilsen
+// console.log(fullName());
+
+function temporary() {
+  let counter = 0;
+  return function () {
+    counter += 1;
+    return counter;
+  };
+}
+let add = temporary();
+
+// console.dir(add);
+console.log(add());
+console.log(add());
+console.log(add());
