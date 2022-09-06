@@ -15,25 +15,39 @@
 
     <body>
         <h3 class="text-center my-5 text-primary">Lear with Sumit JS Tutorial course</h5>
-            <!-- only for tutorial 21 -->
-            <!-- <button class="text-center col-mx-5 m-5" onclick="myFruitFunction()">Click to add a fruit</button> -->
-            <!-- only for tutorial 21 -->
-            <p id="demo" class="text-center"></p>
-            <p id="person" class="text-center"></p>
+        <!-- only for tutorial 21 -->
+        <!-- <button class="text-center col-mx-5 m-5" onclick="myFruitFunction()">Click to add a fruit</button> -->
+        <!-- only for tutorial 21 -->
+        <!-- <p id="demo" class="text-center"></p>
+        <p id ="date" class="text-center"></p>
+        <a class="person" href="test.html">Link 1</a>
+        <img id="myImage" src="smiley.gif">
+ -->
+        <form name="myForm" action="test.html" onsubmit="return validateForm()" method="post">
+            Name: <input type="text" name="fname" required>
+            <!-- required ব্যাবহার করলে JS validation check এর প্রয়োজন নেই -->
+            <input type="submit" value="Submit">
+        </form>
+        <br>
+        <form name="myForm" action="test.html" onsubmit="return validateForm()" method="post">
+            Name: <input type="number" min="1" max="10" name="fname">
+            <!-- min max ব্যাবহার করলে JS validation check এর প্রয়োজন নেই -->
+            <input type="submit" value="Submit">
+        </form>
+        <!-- JavaScript -->
+        <!-- <script>
+            let d = new Date()
+            document.getElementById('demo').innerHTML = d
+        </script> -->
+        <!-- <script src="function.js"></script> -->
+        <!-- <script src="objects.js"></script> -->
+        <!-- <script src="domScript.js"></script> -->
+        <!-- <script src="function.js"></script> -->
 
-            <!-- JavaScript -->
-            <script>
-                let d = new Date()
-                document.getElementById('demo').innerHTML = d
-            </script>
-            <!-- <script src="function.js"></script> -->
-            <!-- <script src="objects.js"></script> -->
-            <script src="function.js"></script>
-
-            <!-- JavaScript Bundle with Popper -->
-            <script src="bootstrap.bundle.min.js"></script>
-            <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-                integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
-                </script>-->
+        <!-- JavaScript Bundle with Popper -->
+        <script src="bootstrap.bundle.min.js"></script>
+        <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+            </script>-->
     </body> 
 </html>
