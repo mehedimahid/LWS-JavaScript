@@ -9,12 +9,24 @@
 // date.innerHTML = `Today's date: ${Date()}`;
 // console.log(date);
 
-function validateForm() {
-  const form = document.forms["myForm"];
-  //   console.log(form);
-  const value = form["fname"].value;
-  if (value == "") {
-    alert("You must be provide a name");
-    return false;
-  }
+// function validateForm() {
+//   const form = document.forms["myForm"];
+//   //   console.log(form);
+//   const value = form["fname"].value;
+//   if (value == "") {
+//     alert("You must be provide a name");
+//     return false;
+//   }
+// }
+
+// const p = document.querySelector("#head");
+// console.log(p);
+// p.style.color = "red";
+// p.style.fontSize = "30px"; //not font-size
+
+function styling() {
+  const p = document.querySelector("#head");
+  console.log(p);
+  p.style.color = "red";
+  p.style.fontSize = "30px"; //not font-size
 }
