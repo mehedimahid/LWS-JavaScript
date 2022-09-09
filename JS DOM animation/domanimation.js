@@ -15,5 +15,3 @@ function myMove() {
     }
   }
 }
-
-myMove();
