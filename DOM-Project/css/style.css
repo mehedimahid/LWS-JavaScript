@@ -25,6 +25,8 @@ body {
     padding: 15px 30px;
     display: flex;
     justify-content: space-between;
+    /* position: fixed;
+    width: 100%; */
 }
 
 .nav img {
