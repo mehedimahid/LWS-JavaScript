@@ -1,3 +1,5 @@
+"use strict";
+
 //JavaScript Popup Boxes .there are 3 type of popup box : 1. alert, 2.confirm, 3. propmt
 const confirm = document.querySelector(".confirm");
 const promptBox = document.querySelector(".prompt");

@@ -1,3 +1,5 @@
+"use strict";
+
 // JavaScript Timing Events. there are 2 type of Timing Events 1. setInterval, 2.setTimeout
 
 const interval = document.getElementById("setInterval");
