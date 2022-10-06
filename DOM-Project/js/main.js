@@ -1,3 +1,5 @@
+"use strict";
+
 const mileStonesData = JSON.parse(data).data;
 
 //load miseStones data
