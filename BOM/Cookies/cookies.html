@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cookies</title>
+  </head>
+  <body>
+    <!-- JavaScript Cookies -->
+    <div class="confirm"></div>
+    <div class="prompt"></div>
+    <div>
+      <input
+        type="button"
+        value="Set name Cookie"
+        onclick="setCookie('name', 'Mr Smith', 2)"
+      />
+    </div>
+    <div>
+      <input
+        type="button"
+        value="Set UserName Cookies"
+        onclick="setCookie('userName', 'Smith', 2)"
+      />
+    </div>
+    <div>
+      <input
+        type="button"
+        value="Get Name Cookie"
+        onclick="alert(getCookie('name'))"
+      />
+    </div>
+    <div>
+      <input
+        type="button"
+        value="Get userName Cookie"
+        onclick="alert(getCookie('userName'))"
+      />
+    </div>
+    <div>
+      <input
+        type="button"
+        value="Ckeck User Name Cookie"
+        onclick="checkCookie('name')"
+      />
+    </div>
+    <div>
+      <input
+        type="button"
+        value="Check new User Cookie"
+        onclick="checkCookie('newUser')"
+      />
+    </div>
+
+    <script src="cookies.js"></script>
+  </body>
+</html>
