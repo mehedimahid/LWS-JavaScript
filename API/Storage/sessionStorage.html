@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Storage</title>
+  </head>
+  <body>
+    <p>
+      <button onclick="setSessionStorage('userName', 'Mehedi Hasan')">
+        Set session storage Username
+      </button>
+    </p>
+    <p>
+      <button onclick="setSessionStorage('name', 'Mehedi')">
+        Set session storage name
+      </button>
+    </p>
+
+    <p>
+      <button onclick="getSessionStorage('userName')">
+        Get session storage Username
+      </button>
+    </p>
+    <p>
+      <button onclick="getSessionStorage('name')">
+        Get session storage name
+      </button>
+    </p>
+
+    <p>
+      <button onclick="lengthSessionStorage()">session storage length</button>
+    </p>
+
+    <p>
+      <button onclick="removeSessionStorage('userName')">
+        Remove session storage Username
+      </button>
+    </p>
+
+    <p>
+      <button onclick="removeSessionStorage('name')">
+        Remove session storage name
+      </button>
+    </p>
+
+    <p>
+      <button onclick="clearSessionStorage()">clear session storage</button>
+    </p>
+    <script src="./sessionStorage.js"></script>
+  </body>
+</html>
