@@ -15,3 +15,4 @@ async function getData() {
   const data = await res.text();
   display.innerText = data;
 }
+      
